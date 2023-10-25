@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class CompareArrays<T> {
 
-    public <T> boolean compareArrays(T[] arr1, T[] arr2)
+    public static <T> boolean compareArrays(T[] arr1, T[] arr2)
     {
         if (arr1 == null && arr2 == null) return false;
 
